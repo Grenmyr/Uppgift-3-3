@@ -48,10 +48,37 @@ table {
 }
 
 #container {
+    
     width: 600px;
     border: 1px solid #D9D5C2 ;
     background-color: #EAE7D2;
     margin: auto;
+}
+#content {
+    width:600px;
+    
+}
+#maincontent {
+    width:340px;
+    float: left;
+
+}
+
+#maincontent h1 {
+    font-size: 2.2em;
+    
+}
+#maincontent  img {
+    
+    float: left;
+}    
+
+
+#subcontent {
+    width: 200px;
+    float: right;
+    
+    
 }
 
 #topbar {
@@ -71,8 +98,9 @@ table {
 
 
 #menu {
-     background-color:#51473D;
+    background-color:#51473D;
     padding-top: 10px;
+    height:30px;
     }
 
 #menu ul {
@@ -82,23 +110,32 @@ table {
 
 #menu li {
     display: inline;
-    background-color: #B8B8B8;
-    border-right: 1px solid #C0C0C0;
+    background-color: #797066;
+    border-right: 1px solid #51473D;
+    float: left;
+    padding:7px;
     
 }
 .active a {
-    background: #EAE7D2;
-    color: #000;
+    background-color: #EAE7D2;
+    padding:7px;
+    color: #797066;
     
 }
 
 #menu a  {
-  color: #EAE7D2 ;  
+ color: #EAE7D2 ;  
  padding-right: 20px;
+ height: 30px;
+ 
 
 }
 
 #menu a:visited {
-   color: #EAE7D2 ; 
+   color: #EAE7D2 ;
+   
 }
-
+#bottomcontent {
+    display: inline-block;
+    padding:5px;
+}
