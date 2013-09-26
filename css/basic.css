@@ -48,7 +48,7 @@ table {
 }
 
 #container {
-    
+    height: 680px;
     width: 600px;
     border: 1px solid #D9D5C2 ;
     background-color: #EAE7D2;
@@ -56,30 +56,51 @@ table {
 }
 #content {
     width:600px;
-    
+    padding: 10px;
+    padding-top: 30px; 
+    font-family:Verdana;
+    font-size:  0.9em;
+    height: 450px;
+    line-height:20px;
 }
 #maincontent {
-    width:340px;
+    width:330px;
     float: left;
 
 }
 
 #maincontent h1 {
     font-size: 2.2em;
+    padding-bottom:20px;
     
 }
 #maincontent  img {
+    padding-right:5px;
     
     float: left;
 }    
 
 
 #subcontent {
-    width: 200px;
+    width: 250px;
     float: right;
-    
-    
+    padding-right:10px;
 }
+
+#subcontent h1 {
+   padding-bottom:30px;
+   font-size: 1.3em;
+}    
+
+#subcontent h2 {
+    font-size: 1.2em;
+    padding-top:20px;
+}
+
+#subcontent ul, li, a {
+    color: #51473D;
+}
+
 
 #topbar {
     background-color:#51473D;
@@ -114,21 +135,25 @@ table {
     border-right: 1px solid #51473D;
     float: left;
     padding:7px;
-    
 }
-.active a {
+#menu ul li.active a {
     background-color: #EAE7D2;
     padding:7px;
     color: #797066;
     
 }
 
-#menu a  {
+#menu li a  {
  color: #EAE7D2 ;  
  padding-right: 20px;
  height: 30px;
- 
+ text-decoration: none;
+}
 
+#menu li a:hover {
+    background-color: grey;
+    
+    
 }
 
 #menu a:visited {
@@ -137,5 +162,5 @@ table {
 }
 #bottomcontent {
     display: inline-block;
-    padding:5px;
+    padding-top: 10px;
 }
